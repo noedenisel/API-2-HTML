@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>API'S de HTML</title>
+        <link rel="stylesheet" href="Estilos apis.css" type="text/css">
+    </head>
+        <body>
+            <h1>API'S de HTML</h1>
+            <video id= "video" controls class="center">
+                <source src="video.mp4" type="video/webm">
+                <source src="video.mp4" type="video/mp4">
+                <source src="video.mp4" type="video/ogg">
+                <source src="video.mp4" type="video/3gp">
+                <p>El video no se puede reproducir en el navegador que estas usando.</p>        
+        </video>
+        <div>
+            <button class="button" onclick="document.getElementById('video').play();">Reproducir</button>
+            <button class="button" onclick="document.getElementById('video').pause();">Pausar</button>
+            <button class="button" onclick="document.getElementById('video').volume +=0.1;">Subir Volumen</button>
+            <button class="button" onclick="document.getElementById('video').volume -=0.1;">Bajar Volumen</button>
+        </div>
+     
+        
+</body>
+</html>
