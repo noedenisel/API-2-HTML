@@ -1,7 +1,7 @@
 # APIS
-Práctica 4. API’s de HTML5
-Opcion 1 con video ya incrustrado
-
+Práctica 4. API’s de HTML5 </br>
+Version 1 con video ya incrustrado
+</br>
 Modulo 3 Desarrollo FullStack - curso Desarrolladoras Samsung/BeJob 2021/2022
 
 Se propone cargar un fichero de vídeo desde una carpeta local del PC y reproducirlo utilizando las opciones permitidas por el API Media Source.
